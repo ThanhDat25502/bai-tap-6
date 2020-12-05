@@ -1,0 +1,128 @@
+/* section1 */
+.container{
+    display: inline-block !important;
+}
+.menu-title h1{
+    text-align: center;
+}
+.container .menu-nav{
+    display: inline-block;
+}
+.container .menu-nav ul li{
+    list-style: none;
+    float: none !important;
+    padding:8px 20px;
+}
+.menu-icon{
+    display: none;
+}
+
+/* section2 banner */
+.banner-text {
+    transform: translate(-50px, -50px);
+}
+.banner-text h1 {
+    font-size: 30pt;
+    line-height: 3rem;
+}
+.banner-text p {
+    font-size: 30pt;
+}
+
+
+
+/* section3 men */
+.conten-1 {
+    flex-basis: 80%;
+    text-align: center;
+    padding: 20px;
+}
+.conten-2 {
+    position: relative;
+    flex-basis: 48%;
+}
+.conten-2, .conten-3, .conten-4, .conten-5{
+    flex-basis: 48%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1 {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+/* section3 */
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+/* ss4 */
+.fashion-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+.fashion-border {
+    top: 23%;
+    left: 37%;
+}
+/* ss5 */
+.featured-container {
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+   
+}
+
+.featured-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.item-left{
+    flex-basis: 90%;
+    background-image: url(img/bd-end.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 40px 0;
+    height: 100%;
+    
+}
+.item-right{
+    flex-basis: 90%;
+    color: #f5f6f9;
+    height: 100%;
+}
+.footer-conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0;
+}
+.footer-conten .f-left{
+    margin: 10px auto;
+    flex-basis: 90%;
+}
+.footer-conten .f-right{
+    margin: 10px auto;
+    flex-basis: 90%;
+}
+.res-icon img{
+    width: 50%;
+}
